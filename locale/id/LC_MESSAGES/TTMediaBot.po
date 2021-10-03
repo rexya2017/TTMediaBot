@@ -1,0 +1,546 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TTMediaBot\n"
+"POT-Creation-Date: 2021-10-04 02:06+0700\n"
+"PO-Revision-Date: 2021-10-04 02:12+0700\n"
+"Last-Translator: Rexya <rexya@infiartt.com>\n"
+"Language-Team: TTMediaBot-User\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ../../../bot\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: TeamTalk/__init__.py:229
+msgid "Send \"h\" for help"
+msgstr "Kirim \"h\" untuk bantuan"
+
+#: commands/__init__.py:77 commands/admin_commands.py:121
+msgid "Unknown command. Send \"h\" for help."
+msgstr "Perintah tidak dikenal. Kirim \"h\" untuk bantuan!"
+
+#: commands/__init__.py:80 modules/downloader.py:51
+msgid "Error: {}"
+msgstr "Kesalahan: {}"
+
+#: commands/__init__.py:87
+msgid "You are banned"
+msgstr "Anda dilarang!"
+
+#: commands/__init__.py:89
+msgid "You are not in bot's channel"
+msgstr "Anda tidak berada di dalam saluran bot!"
+
+#: commands/__init__.py:91
+msgid "Bot is locked"
+msgstr "Bot dikunci"
+
+#: commands/__init__.py:93
+msgid "This command is blocked"
+msgstr "Perintah ini Tidak di izinkan!"
+
+#: commands/__init__.py:114
+msgid "Unknown command"
+msgstr "Perintah tidak diketahui!"
+
+#: commands/admin_commands.py:13
+msgid ""
+"+/-COMMAND Blocks or unblocks commands. +COMMAND adds command to the "
+"blocklist. -COMMAND removes from it. Without a command shows the blocklist"
+msgstr ""
+"Tanda + atau tanda -di ikuti perintah, akan Memblokir atau membuka blokir "
+"perintah. +perintah menambahkan perintah ke daftar blokir. -perintah hapus "
+"perintah dari daftar blokir. Tanpa argumen apapun, tampilkan daftar blockir."
+
+#: commands/admin_commands.py:20 commands/user_commands.py:311
+msgid "List is empty"
+msgstr "Daftar kosong."
+
+#: commands/admin_commands.py:24 commands/admin_commands.py:215
+#: commands/admin_commands.py:242 commands/user_commands.py:279
+msgid "Added"
+msgstr "ditambahkan."
+
+#: commands/admin_commands.py:26
+msgid "This command is already added"
+msgstr "Perintah ini sudah ditambahkan."
+
+#: commands/admin_commands.py:30 commands/admin_commands.py:219
+#: commands/admin_commands.py:246 commands/user_commands.py:291
+msgid "Deleted"
+msgstr "dihapus."
+
+#: commands/admin_commands.py:32
+msgid "This command is not blocked"
+msgstr "Perintah ini tidak diblokir."
+
+#: commands/admin_commands.py:40
+msgid "GENDER Changes bot's gender. n neutral, m male, f female"
+msgstr ""
+"Jenis kelamin, Ubah jenis kelamin bot. n netral, m laki-laki, f perempuan."
+
+#: commands/admin_commands.py:53
+msgid "LANGUAGE Changes bot's language"
+msgstr "BAHASA, Ubah bahasa bot."
+
+#: commands/admin_commands.py:61
+msgid "The language has been changed"
+msgstr "Bahasa telah dirubah."
+
+#: commands/admin_commands.py:63
+msgid "Incorrect language"
+msgstr "Bahasa tidak tersedia."
+
+#: commands/admin_commands.py:65
+#, python-brace-format
+msgid ""
+"Current language: {current_language}. Available languages: "
+"{available_languages}"
+msgstr ""
+"Bahasa saat ini: {current_language}. Bahasa yang tersedia: "
+"{available_languages}."
+
+#: commands/admin_commands.py:71
+msgid "NICKNAME Changes bot's nickname"
+msgstr "NAMA PANGGILAN, Ubah nama panggilan bot."
+
+#: commands/admin_commands.py:81
+msgid ""
+"r/f Clears bot's cache. r clears recents, f clears favorites, without an "
+"option clears the entire cache"
+msgstr ""
+"diikuti uruf r atau f Bersihkan cache bot. Huruf r menghapus daftar putar, "
+"huruf f menghapus favorit, dan jika tidak ada argumen yang diberikan, hapus "
+"seluruh cache."
+
+#: commands/admin_commands.py:88
+msgid "Cache cleared"
+msgstr "cache dihapus."
+
+#: commands/admin_commands.py:92
+msgid "Recents cleared"
+msgstr "cache daftar putar dihapus."
+
+#: commands/admin_commands.py:96
+msgid "Favorites cleared"
+msgstr "cache favorites dihapus."
+
+#: commands/admin_commands.py:102
+msgid "Task scheduler"
+msgstr "Task scheduler"
+
+#: commands/admin_commands.py:137
+msgid "Enables or disables voice transmission"
+msgstr "Aktifkan atau Nonaktifkan transmisi suara."
+
+#: commands/admin_commands.py:143 commands/admin_commands.py:144
+msgid "Voice transmission enabled"
+msgstr "Transmisi suara diaktifkan."
+
+#: commands/admin_commands.py:149
+msgid "Voice transmission disabled"
+msgstr "Transmisi suara dinonaktifkan."
+
+#: commands/admin_commands.py:155
+msgid "Locks or unlocks the bot"
+msgstr "Kunci Bot."
+
+#: commands/admin_commands.py:160
+msgid "Locked"
+msgstr "Bot dikunci."
+
+#: commands/admin_commands.py:160
+msgid "Unlocked"
+msgstr "Bot tidak terkunci."
+
+#: commands/admin_commands.py:166
+msgid "STATUS Changes bot's status"
+msgstr "Status, ganti status bot."
+
+#: commands/admin_commands.py:177
+msgid "Enables or disables event handling"
+msgstr "Aktifkan atau Nonaktifkan event handling."
+
+#: commands/admin_commands.py:182
+msgid "Event handling is enabled"
+msgstr "event handling diaktifkan."
+
+#: commands/admin_commands.py:182
+msgid "Event handling is disabled"
+msgstr "event handling dinonaktifkan."
+
+#: commands/admin_commands.py:188
+msgid "Enables or disables sending of channel messages"
+msgstr "Aktifkan atau nonaktifkan mengirim pesan ke saluran."
+
+#: commands/admin_commands.py:193
+msgid "Channel messages enabled"
+msgstr "Mengirim pesan ke saluran diaktifkan."
+
+#: commands/admin_commands.py:193
+msgid "Channel messages disabled"
+msgstr "Mengirim pesan ke saluran dinonaktifkan."
+
+#: commands/admin_commands.py:199
+msgid "Saves bot's configuration"
+msgstr "Menyimpan konfigurasi bot."
+
+#: commands/admin_commands.py:203
+msgid "Configuration saved"
+msgstr "Konfigurasi disimpan."
+
+#: commands/admin_commands.py:208
+msgid ""
+"+/-USERNAME Manages a list of administrators. +USERNAME adds a user. -"
+"USERNAME removes it. Without an option shows the list"
+msgstr ""
+"Tanda + atau tanda - Di ikuti NamaPengguna kelola daftar administrator. "
+"+NamaPengguna Tambahkan pengguna ke daftar admin bot. -NamaPengguna hapus "
+"pengguna dari daftar admin bot. Tanpa argumen apapun, tampilkan daftar admin "
+"bot."
+
+#: commands/admin_commands.py:221
+msgid "This user is not in the admin list"
+msgstr "Pengguna ini tidak ada dalam daftar admin"
+
+#: commands/admin_commands.py:229 commands/admin_commands.py:256
+#: commands/user_commands.py:360
+msgid "The list is empty"
+msgstr "Daftar kosong."
+
+#: commands/admin_commands.py:235
+msgid ""
+"+/-USERNAME Manages a list of banned users. +USERNAME adds a user. -USERNAME "
+"removes it. Without an option shows the list"
+msgstr ""
+"Tanda + atau tanda -Diikuti USERNAME kelola daftar pengguna yang dilarang. "
+"+NamaPengguna tambahkan pengguna ke daftar pengguna yang dilarang. -"
+"NamaPengguna hapus dari daftar pengguna yang dilarang. Tanpa argumen apapun, "
+"tampilkan daftar pengguna yang dilarang."
+
+#: commands/admin_commands.py:248
+msgid "This user is not banned"
+msgstr "Pengguna ini tidak dilarang."
+
+#: commands/admin_commands.py:263
+msgid "Quits the bot"
+msgstr "Matikan bot."
+
+#: commands/admin_commands.py:271
+msgid "Restarts the bot"
+msgstr "Mulai ulang bot."
+
+#: commands/command.py:14
+msgid "help text not found"
+msgstr "Teks bantuan tidak ditemukan."
+
+#: commands/user_commands.py:10
+msgid "Shows command help"
+msgstr "Tampilkan bantuan perintah."
+
+#: commands/user_commands.py:19
+msgid "Shows information about the bot"
+msgstr "Tampilkan tentang informasi bot."
+
+#: commands/user_commands.py:28
+msgid ""
+"QUERY Plays tracks found for the query. If no query is given, plays or "
+"pauses current track"
+msgstr ""
+"Diikuti judul trek, putar trek yang diinginkan. Tanpa argumen apapun, jeda "
+"atau putar trek saat ini."
+
+#: commands/user_commands.py:32
+msgid "Searching..."
+msgstr "Mencari ..."
+
+#: commands/user_commands.py:36
+#, python-brace-format
+msgid "{nickname} requested {request}"
+msgstr "{nickname} memutar {request}"
+
+#: commands/user_commands.py:38 commands/user_commands.py:143
+#: commands/user_commands.py:158
+msgid "Playing {}"
+msgstr "Memutar {}"
+
+#: commands/user_commands.py:40
+msgid "Nothing is found for your query"
+msgstr "Trek tidak ditemukan."
+
+#: commands/user_commands.py:42
+msgid "The selected service is currently unavailable"
+msgstr "Layanan yang dipilih saat ini tidak tersedia."
+
+#: commands/user_commands.py:53
+msgid "URL Plays a stream from a given URL"
+msgstr "URL lakukan streaming dari URL tertentu."
+
+#: commands/user_commands.py:60
+#, python-brace-format
+msgid "{nickname} requested playing from a URL"
+msgstr "{nickname} memerintahkan bot memutar dari URL."
+
+#: commands/user_commands.py:63
+msgid "Incorrect protocol"
+msgstr "protocol tidak dikenali."
+
+#: commands/user_commands.py:65
+msgid "Cannot process stream URL"
+msgstr "Tidak dapat memproses URL streaming."
+
+#: commands/user_commands.py:67
+msgid "The path cannot be found"
+msgstr "Path tidak dapat ditemukan."
+
+#: commands/user_commands.py:75
+msgid "Stops playback"
+msgstr "Hentikan pemutaran."
+
+#: commands/user_commands.py:81
+#, python-brace-format
+msgid "{nickname} stopped playback"
+msgstr "{nickname} menghentikan pemutaran"
+
+#: commands/user_commands.py:83 commands/user_commands.py:147
+#: commands/user_commands.py:162 commands/user_commands.py:229
+#: commands/user_commands.py:236 commands/user_commands.py:281
+#: commands/user_commands.py:299 commands/user_commands.py:337
+#: commands/user_commands.py:379
+msgid "Nothing is playing"
+msgstr "Tidak ada yang diputar."
+
+#: commands/user_commands.py:89
+#, python-brace-format
+msgid ""
+"VOLUME Sets the volume to a value between 0 and {max_volume}. If no volume "
+"is specified, the current volume level is displayed"
+msgstr ""
+"VOLUME Ubah volume dari 0 sampai {max_volume}. Tanpa argumen apapun, volume "
+"saat ini akan ditampilkan."
+
+#: commands/user_commands.py:108
+#, python-brace-format
+msgid ""
+"STEP Seeks current track backward. the default step is {seek_step} seconds"
+msgstr "Mundur {seek_step}."
+
+#: commands/user_commands.py:123
+#, python-brace-format
+msgid ""
+"STEP Seeks current track forward. the default step is {seek_step} seconds"
+msgstr "maju {seek_step}."
+
+#: commands/user_commands.py:138
+msgid "Plays next track"
+msgstr "Putar trek berikutnya."
+
+#: commands/user_commands.py:145
+msgid "No next track"
+msgstr "Tidak ada trek berikutnya."
+
+#: commands/user_commands.py:153
+msgid "Plays previous track"
+msgstr "Putar trek sebelumnya."
+
+#: commands/user_commands.py:160
+msgid "No previous track"
+msgstr "Tidak ada trek sebelumnya."
+
+#: commands/user_commands.py:168
+msgid "Single Track"
+msgstr "trek tunggal."
+
+#: commands/user_commands.py:168
+msgid "Repeat Track"
+msgstr "Ulangi trek."
+
+#: commands/user_commands.py:168
+msgid "Track list"
+msgstr "Daftar trek."
+
+#: commands/user_commands.py:168
+msgid "Repeat track list"
+msgstr "Ulangi daftar trek."
+
+#: commands/user_commands.py:168
+msgid "Random"
+msgstr "Acak"
+
+#: commands/user_commands.py:172
+msgid ""
+"MODE Sets the playback mode. If no mode is specified, the current mode and a "
+"list of modes are displayed"
+msgstr ""
+"MODE Atur mode pemutaran. Tanpa argumen apapun, mode saat ini dan daftar "
+"mode akan ditampilkan."
+
+#: commands/user_commands.py:175
+#, python-brace-format
+msgid ""
+"Current_ mode: {current_mode}\n"
+"{modes}"
+msgstr ""
+"Mode saat ini: {current_mode}\n"
+"Mode yang tersedia: {modes}"
+
+#: commands/user_commands.py:184
+#, python-brace-format
+msgid "Current mode: {mode}"
+msgstr "Mode saat ini: {mode}"
+
+#: commands/user_commands.py:194
+msgid ""
+"SERVICE Selects the service to play from. If no service is specified, the "
+"current service and a list of available services are displayed"
+msgstr ""
+"Pilih layanan yang tersedia. Tanpa argumen apapun, layanan saat ini dan "
+"daftar layanan yang tersedia akan ditampilkan."
+
+#: commands/user_commands.py:197
+#, python-brace-format
+msgid ""
+"Current service: {current_service}\n"
+"Available: {available_services}"
+msgstr ""
+"Layanan saat ini: {current_service}.\n"
+"Layanan yang tersedia: {available_services}."
+
+#: commands/user_commands.py:202
+msgid "Current service: {}"
+msgstr "Layanan yang tersedia: {}"
+
+#: commands/user_commands.py:204
+msgid ""
+"Unknown service.\n"
+"{}"
+msgstr ""
+"Layanan tidak dikenal.\n"
+"Layanan yang tersedia: {}"
+
+#: commands/user_commands.py:212
+msgid "NUMBER Selects track by number from the list of current results"
+msgstr "Diikuti dengan angka pilih trek dari daftar hasil yang ditentukan."
+
+#: commands/user_commands.py:223
+msgid "Incorrect number"
+msgstr "Angka salah."
+
+#: commands/user_commands.py:225 commands/user_commands.py:234
+msgid "Playing {} {}"
+msgstr "Memutar {} {}"
+
+#: commands/user_commands.py:227 commands/user_commands.py:293
+#: commands/user_commands.py:319 commands/user_commands.py:352
+msgid "Out of list"
+msgstr "Tidak ada dalam daftar."
+
+#: commands/user_commands.py:242
+msgid ""
+"SPEED Sets playback speed from 0.25 to 4. If no speed is given, shows "
+"current speed"
+msgstr ""
+"Atur kecepatan pemutaran dari 0.25 sampai 4. Tanpa argumen apapun, tampilkan "
+"kecepatan saat ini."
+
+#: commands/user_commands.py:246
+msgid "Current rate: {}"
+msgstr "Kecepatan saat ini: {}."
+
+#: commands/user_commands.py:257
+msgid ""
+"+/-NUMBER Manages favorite tracks. + adds the current track to favorites. - "
+"removes a track requested from favorites. If a number is specified after "
+"+/-, adds/removes a track with that number"
+msgstr ""
+"Tanda + atau tanda -Diikuti dengan angka kelola trek favorit. Tanda + "
+"tambahkan trek saat ini ke daftar favorit. Tanda - hapus trek dari daftar "
+"favorit. Jika angka ditentukan setelah tanda + atau tanda -, tambahkan atau "
+"hapus trek dengan angka tersebut."
+
+#: commands/user_commands.py:261
+msgid "This command is not available for guest users"
+msgstr "Perintah ini tidak tersedia untuk pengguna tamu."
+
+#: commands/user_commands.py:297
+msgid "This track is not in favorites"
+msgstr "Lagu ini tidak ada di favorit."
+
+#: commands/user_commands.py:321
+msgid "The list is is empty"
+msgstr "Daftar kosong."
+
+#: commands/user_commands.py:327
+msgid "Gets a direct link to the current track"
+msgstr "Dapatkan direct link dari trek yang sedang diputar."
+
+#: commands/user_commands.py:335
+msgid "URL is not available"
+msgstr "URL tidak tersedia."
+
+#: commands/user_commands.py:343
+msgid ""
+"NUMBER Plays a track with  the given number from a list of recent tracks. "
+"Without a number shows recent tracks"
+msgstr ""
+"Diikuti dengan angka, putar trek dengan angka  tertentu dari daftar trek "
+"terbaru. Tanpa argumen apapun, tampilkan daftar trek terbaru."
+
+#: commands/user_commands.py:366
+msgid "Downloads the current track and uploads it to the channel"
+msgstr "Unduh trek saat ini dan unggah ke saluran."
+
+#: commands/user_commands.py:370
+msgid "Cannot upload file to channel"
+msgstr "Tidak dapat mengunggah file ke saluran."
+
+#: commands/user_commands.py:375
+msgid "Downloading..."
+msgstr "Mengunduh ..."
+
+#: commands/user_commands.py:377
+msgid "Live streams cannot be downloaded"
+msgstr "Live streams tidak dapat diunduh."
+
+#: connectors/tt_player_connector.py:28
+#, python-brace-format
+msgid "Playing: {track_name}"
+msgstr "Memutar: {track_name}."
+
+#: connectors/tt_player_connector.py:30
+#, python-brace-format
+msgid "Playing: {stream_url}"
+msgstr "Memutar: {stream_url}."
+
+#: connectors/tt_player_connector.py:37
+#, python-brace-format
+msgid "Paused: {track_name}"
+msgstr "Digeda: {track_name}."
+
+#: connectors/tt_player_connector.py:39
+#, python-brace-format
+msgid "Paused: {stream_url}"
+msgstr "Dijeda: {stream_url}."
+
+#: vars.py:6
+#, fuzzy
+#| msgid ""
+#| "A media streaming bot for TeamTalk.\n"
+#| "Authors: Gumerov_amir, A11CF0, Beqa Gozalishvili.\n"
+#| "Home page: https://github.com/gumerov-amir/TTMediaBot\n"
+#| "License: Mit License"
+msgid ""
+"A media streaming bot for TeamTalk.\n"
+"Authors: Gumerov_amir, A11CF0, Beqa Gozalishvili.\n"
+"Home page: https://github.com/gumerov-amir/TTMediaBotLicense: Mit License"
+msgstr ""
+"Bot streaming media untuk TeamTalk.\n"
+"Pengembang: Gumerov_amir, A11CF0, Beqa Gozalishvili.\n"
+"Website: https://github.com/gumerov-amir/TTMediaBot\n"
+"Lisensi: MIT License."
+
+#~ msgid "Unknown command. Send \"help\" for help."
+#~ msgstr "Perintah tidak dikenal. Kirim \"bantuan\" untuk bantuan!"
